@@ -81,3 +81,47 @@
 }
 
 /* carousel */
+
+.carousel-container {
+    width: 100%;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+/* keyframe source https://www.w3schools.com/cssref/atrule_keyframes.php */
+
+.carousel {
+    display: flex; 
+    gap: 12px;
+    animation: scrollText 20s linear infinite;
+}
+
+.slide {
+    width: auto;
+    height: 28px;
+    font-size: 12px;
+    font-family: "Inter-Regular";
+    color: var(--color-2);
+    border-radius: 10px;
+    /* text-align: center; */
+    padding: 6.5px;
+}
+
+.slide:nth-child(1) { background: var(--color-12); }
+.slide:nth-child(2) { background: var(--color-14); }
+.slide:nth-child(3) { background: var(--color-13); }
+.slide:nth-child(4) { background: var(--color-11); }
+
+@keyframes scrollText {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.carousel-container:active .carousel {
+    animation-play-state: paused;
+}
+
+/*  */
