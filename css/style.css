@@ -235,6 +235,7 @@ main{
     img{
         width: 10px;
         height: 12px;
+        
     }
 }
 
@@ -288,7 +289,8 @@ main{
     display: flex;
     flex-direction: column;
     gap: 7px;
-    background: var(--light-gray);
+    /* background: var(--light-gray); */
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.134);
     border-radius: 8px;
     img{
         width: 150px;
@@ -336,6 +338,7 @@ main{
     img{
         width: fit-content;
         height: fit-content;
+        opacity: 50%;
     }
     p{
         width: 87px;
@@ -354,6 +357,7 @@ main{
     img{
         width: fit-content;
         height: fit-content;
+        opacity: 50%;
     }
     p{
         margin-top: 9px;
