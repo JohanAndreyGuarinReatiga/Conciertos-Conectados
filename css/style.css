@@ -4,8 +4,30 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* background img */
-body{
+/* background img specified in each body to chage iimages*/
+
+.body1{
+    margin: 0;
+    padding: 0;
+    background-image: url(../storage/img/PA-Muse.jpg);
+    background-size: contain; 
+    background-position: center top; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+}
+
+
+.body2{
+    margin: 0;
+    padding: 0;
+    background-image: url(../storage/img/OneDirectionback.jpg);
+    background-size: contain; 
+    background-position: center top; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+}
+
+.body3{
     margin: 0;
     padding: 0;
     background-image: url(../storage/img/coldplaybackgim.png);
@@ -14,6 +36,16 @@ body{
     background-repeat: no-repeat; 
     height: 100vh; 
 }
+.body4{
+    margin: 0;
+    padding: 0;
+    background-image: url(../storage/img/PnateraBackimg.jpg);
+    background-size: contain; 
+    background-position: center top; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+}
+
 
 /* go back button */
 
