@@ -4,3 +4,20 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../storage/img/coldplaybackgim.png);
+    background-size: contain; 
+    background-position: center top; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
