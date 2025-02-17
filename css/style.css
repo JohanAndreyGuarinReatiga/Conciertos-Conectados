@@ -4,3 +4,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background: var(--linear);
+    background-repeat: no-repeat;
+    /* height: 100%;
+    z-index: -1; */
+}
+
+.div___img{
+    width: 343.5px;
+    height: 596px;
+    background-image: url(../storage/img/ticket.png);
+    justify-self: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+  
+  
