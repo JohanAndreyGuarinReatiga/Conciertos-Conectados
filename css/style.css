@@ -203,6 +203,10 @@ main{
     margin-left: 10px;
 }
 
+.pantera-pic{
+    border-radius: 16px;
+}
+
 .div-back{
     width: 332px;
     height: 90px;
