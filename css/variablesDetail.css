@@ -1,0 +1,30 @@
+:root{
+    --black: #000000;
+    --white: #FFFFFF;
+    --purple-op: hsla(250, 33%, 22%, 0.25);
+    --purple: #761CBC;
+    --blue: #0092FC;
+    --gray: #706D6D;
+    --white-op: hsla(0, 0%, 100%, 0.2);
+
+}
+
+@font-face {
+    font-family: "DMSans-Medium";
+    src: url(../storage/font/DMSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Inter-Medium";
+    src: url(../storage/font/Inter-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url(../storage/font/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url(../storage/font/Inter-SemiBold.ttf);
+}
