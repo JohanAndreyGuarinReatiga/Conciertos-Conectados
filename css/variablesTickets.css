@@ -1,9 +1,22 @@
 :root{
     --linear: linear-gradient(165deg, rgba(145,181,253,1) 0%, rgba(240,221,255,1) 100%);
-    --color-2: white;
-
+    --black: #000000;
+    --gray: #5F5A5A;
+    --white: #FFFFFF;
+    --sese: #675E5E;
+    --sese-op: hsla(0, 5%, 39%, 0.05);
 }
 @font-face {
-    font-family: "example";
-    src: url(/storage/font/example.ttf);
+    font-family: "Inter-Medium";
+    src: url(../storage/font/Inter-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url(../storage/font/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url(../storage/font/Inter-SemiBold.ttf);
 }
