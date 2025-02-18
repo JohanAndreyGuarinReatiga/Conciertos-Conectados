@@ -1,5 +1,5 @@
 :root{
-    --color-1: red;
+    --linear: linear-gradient(165deg, rgba(145,181,253,1) 0%, rgba(240,221,255,1) 100%);
     --color-2: white;
 
 }

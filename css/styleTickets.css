@@ -1,0 +1,52 @@
+@import url(variablesTickets.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 844px;
+}
+
+.bg{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: var(--linear);
+    background-repeat: no-repeat;
+    height: 100%;
+    z-index: -1;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    img{
+        padding: 20px;
+        padding-top: 35px;
+    }
+}
+.section-ticket{
+    width: 343.5px;
+    height: 596px;
+    background-image: url(../storage/img/ticket.png);
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat;
+    justify-self: center;
+
+}
+
+.div___img{
+    width: 308px;
+    height: 159px;
+    position: relative;
+    padding: 17px;
+}
+
+.div-ticket-info{
+
+    
+}
