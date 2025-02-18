@@ -55,6 +55,9 @@ header{
     width: 308px;
     height: 159px;
     padding: 17px;
+    img{
+        border-radius: 20px;
+    }
 }
 
 .div-ticket-info{
